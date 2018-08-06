@@ -52,6 +52,30 @@ It contains the commands list in a table of string (command_list) and the class 
 - **is_command_valid()**: returns the value of variable "valid"
 
 ### world.py
-
+It contains the constants "worldsize" and "origin", the direction dictionary (each cardinal directions refers to an angle) and the following functions:
+- **format_direction(angle)**: Function to format a direction according to the 4 cardinal directions angles (e.g. an angle of 85° would be reformated to 90°)
+- **direction_to_string(dir_angle)**: Function to translate the following 4 angles in degree to a cardinal direction string from 0, 90, 180, 270 to EAST, NORTH, WEST, SOUTH
+- **is_in_world(x,y)**: Function to verify if the point is in the 5x5 grid
 
 ## Testing instructions
+Run the following:
+```
+git clone https://github.com/nicotea/code-challenge-pacman
+
+cd code-challenge-pacman
+```
+
+Unit test:
+```
+python ./tests/tests.py
+```
+
+Integration test:
+```
+python main.py ./command-files/command-1.txt
+python main.py ./command-files/command-2.txt
+python main.py ./command-files/command-3.txt
+python main.py ./command-files/command-4.txt
+python main.py ./command-files/command-5.txt
+python main.py ./command-files/command-6.txt
+```
