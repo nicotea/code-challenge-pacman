@@ -23,7 +23,7 @@ def format_direction(angle):
 	if temp_angle > 315 or temp_angle <= 45:
 		return 0 
 
-# Function to translation the following 4 angles in degree to a cardinal direction string: 0, 90, 180, 270
+# Function to translate the following 4 angles in degree to a cardinal direction string from 0, 90, 180, 270 to EAST, NORTH, WEST, SOUTH
 def direction_to_string(dir_angle):
 	temp_angle = format_direction(dir_angle)
 	for key in direction_list:
