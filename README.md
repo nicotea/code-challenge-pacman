@@ -57,21 +57,21 @@ It contains the constants "worldsize" and "origin", the direction dictionary (ea
 - **is_in_world(x,y)**: Function to verify if the point is in the 5x5 grid
 
 ## Testing instructions
-Run the following:
+**Run the following:**
 ```
 git clone https://github.com/nicotea/code-challenge-pacman
 
 cd code-challenge-pacman
 ```
 
-Unit test:
+**Unit test:**
 ```
 cd tests
 
 python tests.py
 ```
 
-Integration test :
+**Integration test :**
 
 Make sure you're located in the root of the repo
 ```
