@@ -28,7 +28,6 @@ It then execute each command to place, move, rotate or report the position of "P
 - Any move that would cause Pacman to fall must be ignored.
 
 ## Architecture
-
 The architecture of the file consists of 4 modules with the following dependencies:
 
 ![alt text](https://github.com/nicotea/code-challenge-pacman/blob/master/images/archi_pacman.png)
@@ -79,3 +78,5 @@ python main.py ./command-files/command-4.txt
 python main.py ./command-files/command-5.txt
 python main.py ./command-files/command-6.txt
 ```
+
+Remark: Use "py" instead of "python" if you're using Windows
