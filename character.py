@@ -41,7 +41,7 @@ class Character:
 		if self._is_placed():
 			self.direction = (self.direction - 90) % 360
   
-  	# Print the character's position and directionection
+  	# Print the character's position and direction
 	def report(self):
 		if self._is_placed():
 			print("Output: " + str(self.x) + "," + str(self.y) + "," + direction_to_string(self.direction))
