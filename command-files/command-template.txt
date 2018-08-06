@@ -1,0 +1,9 @@
+PLACE X,Y,F
+
+MOVE
+
+LEFT
+
+RIGHT
+
+REPORT

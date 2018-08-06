@@ -1,0 +1,9 @@
+PLACE 0,0,WEST
+
+MOVE
+
+LEFT
+
+MOVE
+
+REPORT
