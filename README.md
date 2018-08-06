@@ -66,7 +66,9 @@ cd code-challenge-pacman
 
 Unit test:
 ```
-python ./tests/tests.py
+cd tests
+
+python tests.py
 ```
 
 Integration test:
