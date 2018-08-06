@@ -1,4 +1,4 @@
-# Defining gric's size and orgins
+# Defining grid's size and origins
 origin = (0,0)
 worldsize = (5,5)
 
