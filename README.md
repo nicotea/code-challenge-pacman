@@ -41,9 +41,17 @@ It contains the class Character() and its method to place, move, rotate and repo
 - **_is_placed()**: Check that the character is placed
 - **place(x,y,direction)**: Place the character
 - **move()**: Move the character one unit in the direction it is facing
-- **left()** and **right(self)**: Rotate the character by 90° without changing its position
+- **left()** and **right()**: Rotate the character by 90° without changing its position
 - **report()**: Print the character's position and direction
   
 ### command.py
-It contains the 
-- world.py: Contains the worldsize and origin constants, the direction dictionary and 
+It contains the commands list in a table of string (command_list) and the class Command() with the following methods:
+- **_set_command(action,x,y,direction,valid)**: It set the action (PLACE, MOVE, etc.), coordinates and valid flag (defaulted to False)
+- **read_command(input)**: The input parameter corresponds to a line in the text file that is being read. This method read the line, verify its validity (first word found in command_list, and if the command is a PLACE, check if the coordinates are in the grid), and calls _set_command
+- **reset_command()**: reset all variables to None and set the variable "valid" to False
+- **is_command_valid()**: returns the value of variable "valid"
+
+### world.py
+
+
+## Testing instructions
