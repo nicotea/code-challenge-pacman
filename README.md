@@ -72,6 +72,7 @@ python tests.py
 ```
 
 Integration test :
+
 Make sure you're located in the root of the repo
 ```
 python main.py ./command-files/command-1.txt
